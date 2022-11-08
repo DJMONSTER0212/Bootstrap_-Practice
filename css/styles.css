@@ -1,15 +1,28 @@
-#title{
-    background-color: #ff4c68;
-    color: #fff;
-}
 body{
     font-family: "Montserrat";
+    text-align: center  ;
 }
-h1{
+h1, h2, h3, h4, h5, h6{
+    font-family: "Montserrat-Bold";
+}
+p{
+    color: #8f8f8f;
+}
+/* headings */
+.big-heading{
     font-family: "Montserrat-Black";
     font-size: 3.5rem;
     font-weight: bold;
     line-height: 1.5;
+}
+.section-heading{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+#title{
+    background-color: #ff4c68;
+    text-align: left;
+    color: #fff;
 }
 .container-fluid{
     padding: 3% 15% 7%;
@@ -62,20 +75,10 @@ h1{
     z-index: 1;
     position: relative;
 }
-h2{
-    font-family:"Montserrat-Bold";
-    font-size: 3rem;
+.feature-title{
+    font-size: 1.5rem;
 }
-h3{
-    font-family: "Montserrat";
-    font-weight: bold;
-}
-p{
-    color: #8f8f8f;
-}
-
 .feature-box{
-    text-align: center;
     padding: 5%;
 }
 
@@ -89,9 +92,12 @@ p{
 
 /* Testomonial Section */
 #testimonials{
-    text-align: center;
     background-color: #ef8172;
     color:#fff;
+}
+.testimonial-text{
+    font-size: 3rem;
+    line-height: 1.5;
 }
 .testimonial-image{
     width: 10%;
@@ -100,7 +106,6 @@ p{
 }
 #press{
     background-color: #ef8172;
-    text-align: center;
     padding-bottom: 3%;
 }
 .press-logo{   /*For z-index : position static is similar to having no position defined*/
@@ -113,10 +118,13 @@ p{
 /* Pricing */
 #pricing{
     padding:0px;
-    text-align: center;
 }
 .pricing-coloumn{
     padding: 3% 2%;
+}
+.pricing-text{
+    font-size: 3rem;
+    line-height: 1.5;
 }
 
 @media(max-width:1028px){
@@ -128,13 +136,11 @@ p{
         transform: rotate(0);
     }
 }
-
 /* Call to Action */
 
 #cta{
     background-color: #ff4c68;
     color: #fff;
-    text-align: center;
     padding: 7% 15%;
 }
 .cta-heading{
@@ -144,7 +150,6 @@ p{
 /* Footer Section  */
 #footer{
     padding: 7% 15%;
-    text-align: center;
 }
 
 .social-icon{
